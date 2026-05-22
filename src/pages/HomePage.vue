@@ -4,8 +4,11 @@
     <div class="home-hero__overlay"></div>
     <div class="container home-hero__content">
       <p class="eyebrow">September 19th, 2026 · Chengdu, China</p>
-      <h1 id="home-title">ICCWAMTIP 2026</h1>
-      <p>{{ conference.fullName }}</p>
+      <h1 id="home-title">
+        <span class="hero-title-main">ICCWAMTIP</span>
+        <span class="hero-year">2026</span>
+      </h1>
+      <p class="hero-subtitle">{{ conference.fullName }}</p>
       <div class="hero-actions">
         <el-button tag="a" :href="conference.cmtUrl" target="_blank" rel="noreferrer" type="success" size="large">
           Submit A Paper
