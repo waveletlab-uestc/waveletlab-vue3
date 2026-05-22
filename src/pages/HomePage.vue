@@ -1,6 +1,6 @@
 <template>
   <section class="home-hero" aria-labelledby="home-title">
-    <img class="home-hero__image" src="/images/banner.jpg" alt="Chengdu conference banner" />
+    <div class="home-hero__image" aria-hidden="true"></div>
     <div class="home-hero__overlay"></div>
     <div class="container home-hero__content">
       <p class="eyebrow">September 19th, 2026 · Chengdu, China</p>
@@ -19,7 +19,7 @@
     <ConferenceSidebar />
     <article class="content-panel">
       <section class="section-block">
-        <img class="intro-image" src="/images/banner.jpg" alt="ICCWAMTIP conference visual" />
+        <img class="intro-image" src="/images/introduction.png" alt="ICCWAMTIP 2026 conference poster" />
         <h2>ICCWAMTIP 2026 | Chengdu, China | September 19th, 2026</h2>
         <p>
           ICCWAMTIP 2026, The 23rd International Computer Conference on Wavelet Active Media Technology and Information
