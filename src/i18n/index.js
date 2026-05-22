@@ -4,6 +4,11 @@ const supportedLocales = ['en', 'zh']
 const defaultLocale = 'en'
 const localeStorageKey = 'iccwamtip-locale'
 
+const baiduMapUrl =
+  'https://map.baidu.com/poi/%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6(%E6%B8%85%E6%B0%B4%E6%B2%B3%E6%A0%A1%E5%8C%BA)/@11569848.31308719,3577978.0829476276,15.48z?uid=7001486489acc1e6a8f72947&info_merge=1&isBizPoi=false&ugc_type=3&ugc_ver=1&device_ratio=1&compat=1&querytype=detailConInfo&da_src=shareurl'
+const googleMapUrl =
+  'https://www.google.com/maps/search/?api=1&query=University%20of%20Electronic%20Science%20and%20Technology%20of%20China%20Qingshuihe%20Campus%2C%20No.%202006%20Xiyuan%20Ave.%2C%20Chengdu%2C%20China'
+
 const sharedConferenceLinks = {
   email: 'icacia@uestc.edu.cn',
   phone: '+86 (0)28-8683-1549',
@@ -39,6 +44,7 @@ const catalogNumbers = [
 ]
 
 const speakerImages = {
+  zhang: '/images/zhangjingzhong.jpg',
   ni: '/images/niguangnan.jpg',
   tang: '/images/tangyuanyan.jpg',
   li: '/images/lijianping.jpg',
@@ -150,6 +156,8 @@ export const messages = {
       date: 'September 19th, 2026',
       location: 'Chengdu, China',
       venue: 'University of Electronic Science and Technology of China',
+      address: 'No. 2006, Xiyuan Ave., West High-tech Zone, Chengdu',
+      mapUrl: googleMapUrl,
       ...sharedConferenceLinks,
     },
     primaryNav: [
@@ -182,6 +190,8 @@ export const messages = {
     footer: {
       linksTitle: 'Our Links',
       tel: 'Tel.',
+      mapEyebrow: 'Campus venue',
+      openMap: 'Open map',
       links: {
         submission: 'Submission',
         registration: 'Registration',
@@ -406,6 +416,13 @@ export const messages = {
     ],
     speakers: [
       {
+        name: 'Zhang Jingzhong',
+        title: 'Professor',
+        image: speakerImages.zhang,
+        affiliation: 'Academician of Chinese Academy of Sciences, Chengdu Computer Applications Institute, Chinese Academy of Sciences',
+        bio: 'Zhang Jingzhong is an academician of Chinese Academy of Sciences, computer scientist, mathematician, and mathematics educator. Academician Zhang was Professor of University of Science and Technology of China, and now he is the head of automated reasoning union laboratory of University of Electronic Science and Technology of China and Chengdu Computer Applications Institute, Chinese Academy of Sciences, the honorary director of education software institute of Guangzhou University, and the chairman of National Digit Learning Centre of Huazhong Normal University. Academician Zhang has been engaged in computer science and mathematics for many years, made rich achievements in machine proof, and was awarded National Prize of China for many times.',
+      },
+      {
         name: 'Ni Guangnan',
         title: 'Professor',
         image: speakerImages.ni,
@@ -573,10 +590,12 @@ export const messages = {
     conference: {
       shortName: 'ICCWAMTIP 2026',
       edition: '第23届',
-      fullName: '第23届小波主动媒体技术与信息处理国际计算机会议',
+      fullName: '第二十三届小波智能体媒介技术和信息处理国际计算机学术会议',
       date: '2026年9月19日',
       location: '中国成都',
       venue: '电子科技大学',
+      address: '成都市高新区西源大道2006号',
+      mapUrl: baiduMapUrl,
       ...sharedConferenceLinks,
     },
     primaryNav: [
@@ -609,6 +628,8 @@ export const messages = {
     footer: {
       linksTitle: '相关链接',
       tel: '电话',
+      mapEyebrow: '会场位置',
+      openMap: '打开地图',
       links: {
         submission: '投稿',
         registration: '注册',
@@ -633,7 +654,7 @@ export const messages = {
       posterAlt: 'ICCWAMTIP 2026 会议海报',
       introHeading: 'ICCWAMTIP 2026 | 中国成都 | 2026年9月19日',
       introParagraphs: [
-        'ICCWAMTIP 2026，第23届小波主动媒体技术与信息处理国际计算机会议，将于2026年9月19日在中国成都举行。本次会议由电子科技大学主办，并得到国家自然科学基金委员会、国家高技术研究发展计划和中国国际人才交流基金会等支持。',
+        'ICCWAMTIP 2026，第二十三届小波智能体媒介技术和信息处理国际计算机学术会议，将于2026年9月19日在中国成都举行。本次会议由电子科技大学主办，并得到国家自然科学基金委员会、国家高技术研究发展计划和中国国际人才交流基金会等支持。',
         'ICCWAMTIP 2026 将汇聚信息技术领域的重要研究者和专业人士，围绕快速发展的前沿方向交流最新成果、研判技术现状，并探讨未来研究路线。',
         '会议致力于搭建思想交流平台，鼓励研究人员积极参与。历届 ICCWAMTIP 会议论文聚焦现代工程中的诸多关键挑战。',
         '会议全文论文将由专家评审，包括组织委员会成员参与审稿。我们感谢各位作者对 ICCWAMTIP 2026 的支持，也期待大家持续参与未来会议。',
@@ -811,6 +832,13 @@ export const messages = {
     ],
     speakers: [
       {
+        name: '张景中',
+        title: '教授',
+        image: speakerImages.zhang,
+        affiliation: '中国科学院院士，中国科学院成都计算机应用研究所',
+        bio: '张景中教授是中国科学院院士、计算机科学家、数学家和数学教育家。他曾任中国科学技术大学教授，现任电子科技大学与中国科学院成都计算机应用研究所自动推理联合实验室主任、广州大学教育软件研究所名誉所长、华中师范大学国家数字化学习工程技术研究中心主任。他长期从事计算机科学和数学研究，在机器证明领域取得丰硕成果，并多次获得国家级奖励。',
+      },
+      {
         name: '倪光南',
         title: '教授',
         image: speakerImages.ni,
@@ -860,7 +888,7 @@ export const messages = {
       description: '征稿通知、出版信息、出版编号和重要日期。',
       callForPaper: '征稿通知',
       paragraphs: [
-        '尊敬的作者：第23届小波主动媒体技术与信息处理国际计算机会议（ICCWAMTIP 2026）将于2026年9月19日在电子科技大学举行。',
+        '尊敬的作者：第二十三届小波智能体媒介技术和信息处理国际计算机学术会议（ICCWAMTIP 2026）将于2026年9月19日在电子科技大学举行。',
         '本次会议由 IEEE 支持、电子科技大学承办，聚焦关键信息技术的最新进展。会议将为学术界和产业界提供交流新挑战、分享解决方案和讨论未来研究方向的重要平台。会议论文集将由电子科技大学出版，所有录用论文预计将被 IEEE Xplore 收录并被 EI 检索。会议还将邀请知名专家作大会报告。',
       ],
       topicsIntro: '会议征稿主题包括：',

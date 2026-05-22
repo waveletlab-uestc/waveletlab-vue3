@@ -28,13 +28,27 @@
           <RouterLink to="/contact.html">{{ t('footer.links.contact') }}</RouterLink>
         </div>
       </section>
+      <section class="footer-map">
+        <p class="footer-map__eyebrow">{{ t('footer.mapEyebrow') }}</p>
+        <a class="footer-map__card" :href="conference.mapUrl" target="_blank" rel="noreferrer">
+          <span class="footer-map__icon" aria-hidden="true">
+            <MapLocation />
+          </span>
+          <span>
+            <strong>{{ conference.venue }}</strong>
+            <span>{{ conference.address }}</span>
+            <em>{{ t('footer.openMap') }}</em>
+          </span>
+          <Position class="footer-map__arrow" aria-hidden="true" />
+        </a>
+      </section>
     </div>
   </footer>
 </template>
 
 <script setup>
 import { computed } from 'vue'
-import { Message, Phone } from '@element-plus/icons-vue'
+import { MapLocation, Message, Phone, Position } from '@element-plus/icons-vue'
 import { useI18n } from '../i18n'
 
 const { t, tm } = useI18n()
