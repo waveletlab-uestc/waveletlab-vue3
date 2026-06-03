@@ -1003,6 +1003,32 @@ tr:last-child td {
   color: #93c5fd;
 }
 
+.cmt-acknowledgment-static {
+  padding: 24px 0 28px;
+  background: #171b25;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.cmt-acknowledgment-static .container {
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.cmt-acknowledgment-static h2 {
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.cmt-acknowledgment-static p {
+  max-width: 980px;
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
