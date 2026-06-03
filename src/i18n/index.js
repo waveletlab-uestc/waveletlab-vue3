@@ -153,7 +153,7 @@ export const messages = {
       shortName: 'ICCWAMTIP 2026',
       edition: '23rd',
       fullName: 'The 23rd International Computer Conference on Wavelet Active Media Technology and Information Processing',
-      date: 'September 19th, 2026',
+      date: 'September 19 - 21, 2026',
       location: 'Chengdu, China',
       venue: 'University of Electronic Science and Technology of China',
       address: 'No. 2006, Xiyuan Ave., West High-tech Zone, Chengdu',
@@ -208,15 +208,15 @@ export const messages = {
       eyebrow: 'ICCWAMTIP 2026',
     },
     home: {
-      heroMeta: 'September 19th, 2026 · Chengdu, China',
+      heroMeta: 'September 19 - 21, 2026 · Chengdu, China',
       titleMain: 'ICCWAMTIP',
       titleYear: '2026',
       submitPaper: 'Submit A Paper',
       callForPaper: 'Call For Paper',
       posterAlt: 'ICCWAMTIP 2026 conference poster',
-      introHeading: 'ICCWAMTIP 2026 | Chengdu, China | September 19th, 2026',
+      introHeading: 'ICCWAMTIP 2026 | Chengdu, China | September 19 - 21, 2026',
       introParagraphs: [
-        'ICCWAMTIP 2026, The 23rd International Computer Conference on Wavelet Active Media Technology and Information Processing, will take place in Chengdu, China, on September 19th, 2026. This event is organized by University of Electronic Science and Technology of China(UESTC), sponsored by The National Natural Science Foundation of China(NSFC), National High Technology Research and Development Program of China and China International Talent Exchange Foundation.',
+        'ICCWAMTIP 2026, The 23rd International Computer Conference on Wavelet Active Media Technology and Information Processing, will take place in Chengdu, China, from September 19 to 21, 2026. This event is organized by University of Electronic Science and Technology of China(UESTC), sponsored by The National Natural Science Foundation of China(NSFC), National High Technology Research and Development Program of China and China International Talent Exchange Foundation.',
         'ICCWAMTIP 2026 is a not-to-be-missed opportunity that distills the most current knowledge on a rapidly advancing discipline in one conference. Join key researchers and established professionals in the field of information technologies as they assess the current state-of-the-art and roadmap crucial areas for future research.',
         'We aim to building an idea-trading platform for the purpose of encouraging researcher participating in this event. The papers to be presented at ICCWAMTIP past conferences addressed many grand challenges in modern engineering.',
         'The full papers to be presented will be peer-reviewed by expert reviewers including the whole organising committees members. We will be thankful for the contributions to ICCWAMTIP 2026. We look forward to your participation and continued engagement at future ICCWAMTIP conferences.',
@@ -224,8 +224,8 @@ export const messages = {
       latestNews: 'Latest News',
       viewAllNews: 'View all news',
       routineTitle: 'Conference Routine',
-      routineTextBefore: 'The conference will be held on',
-      routineTime: 'September 19th, 2026 from 09:00 AM to 12:30',
+      routineTextBefore: 'The conference dates are',
+      routineTime: 'September 19 - 21, 2026',
       routineTextAfter: 'For authors who would like to participate in the conference online, please use',
       routineTextEnd: 'software join.',
       importantDates: 'Important Dates',
@@ -237,7 +237,7 @@ export const messages = {
     importantDates: [
       { event: 'Submission Deadline', date: 'July 31st, 2026' },
       { event: 'Notification Date', date: 'August 31st, 2026' },
-      { event: 'Conference Ceremony', date: 'September 19th, 2026' },
+      { event: 'Conference Dates', date: 'September 19 - 21, 2026' },
     ],
     catalogNumbers,
     latestNews: [
@@ -274,7 +274,7 @@ export const messages = {
       { event: 'Paper Review', schedule: 'From Jul. 16th to Aug. 21st' },
       { event: 'Author Notification', schedule: 'Date : Aug. 31st, 2026' },
       { event: 'Camera Ready Submission & Payment', schedule: 'Deadline : Aug. 31st, 2026' },
-      { event: 'Conference', schedule: 'Date : Sep. 19th, 2026' },
+      { event: 'Conference', schedule: 'Dates : Sep. 19 - 21, 2026' },
     ],
     routine: [
       { time: '09:00', title: 'Opening Speech', note: 'Conference Chair' },
@@ -472,7 +472,7 @@ export const messages = {
       description: 'Call for paper, publication information, catalog numbers, and key dates.',
       callForPaper: 'Call For Paper',
       paragraphs: [
-        'Dear Authors, The 23rd International Computer Conference on Wavelet Active Media Technology and Information Processing (the 23rd ICCWAMTIP) will be held in the University of Electronic Science and Technology of China (UESTC) on September 19th, 2026.',
+        'Dear Authors, The 23rd International Computer Conference on Wavelet Active Media Technology and Information Processing (the 23rd ICCWAMTIP) will be held in the University of Electronic Science and Technology of China (UESTC) from September 19 to 21, 2026.',
         'The conference is sponsored by IEEE, undertaken by UESTC. The Conference will focus on recent advances in key information technologies. It will provide a remarkable opportunity for the academic and industrial community to address new challenges and share solutions, and discuss future research directions. The conference proceedings will be published by UESTC, all accepted papers are expected to be included in IEEE Xplore and will be indexed by EI. Some famous experts are going to present at the conference.',
       ],
       topicsIntro: 'The topics of the conference include:',
@@ -488,7 +488,7 @@ export const messages = {
       organizationLines: [
         'International Centre for Wavelet Analysis and Its Applications',
         'Chengdu China, UESTC',
-        'September 19th, 2026',
+        'September 19 - 21, 2026',
       ],
     },
     guidance: {
@@ -591,7 +591,7 @@ export const messages = {
       shortName: 'ICCWAMTIP 2026',
       edition: '第23届',
       fullName: '第二十三届小波智能体媒介技术和信息处理国际计算机学术会议',
-      date: '2026年9月19日',
+      date: '2026年9月19日至21日',
       location: '中国成都',
       venue: '电子科技大学',
       address: '成都市高新区西源大道2006号',
@@ -646,15 +646,15 @@ export const messages = {
       eyebrow: 'ICCWAMTIP 2026',
     },
     home: {
-      heroMeta: '2026年9月19日 · 中国成都',
+      heroMeta: '2026年9月19日至21日 · 中国成都',
       titleMain: 'ICCWAMTIP',
       titleYear: '2026',
       submitPaper: '提交论文',
       callForPaper: '征稿通知',
       posterAlt: 'ICCWAMTIP 2026 会议海报',
-      introHeading: 'ICCWAMTIP 2026 | 中国成都 | 2026年9月19日',
+      introHeading: 'ICCWAMTIP 2026 | 中国成都 | 2026年9月19日至21日',
       introParagraphs: [
-        'ICCWAMTIP 2026，第二十三届小波智能体媒介技术和信息处理国际计算机学术会议，将于2026年9月19日在中国成都举行。本次会议由电子科技大学主办，并得到国家自然科学基金委员会、国家高技术研究发展计划和中国国际人才交流基金会等支持。',
+        'ICCWAMTIP 2026，第二十三届小波智能体媒介技术和信息处理国际计算机学术会议，将于2026年9月19日至21日在中国成都举行。本次会议由电子科技大学主办，并得到国家自然科学基金委员会、国家高技术研究发展计划和中国国际人才交流基金会等支持。',
         'ICCWAMTIP 2026 将汇聚信息技术领域的重要研究者和专业人士，围绕快速发展的前沿方向交流最新成果、研判技术现状，并探讨未来研究路线。',
         '会议致力于搭建思想交流平台，鼓励研究人员积极参与。历届 ICCWAMTIP 会议论文聚焦现代工程中的诸多关键挑战。',
         '会议全文论文将由专家评审，包括组织委员会成员参与审稿。我们感谢各位作者对 ICCWAMTIP 2026 的支持，也期待大家持续参与未来会议。',
@@ -663,7 +663,7 @@ export const messages = {
       viewAllNews: '查看全部',
       routineTitle: '会议安排',
       routineTextBefore: '会议时间为',
-      routineTime: '2026年9月19日 09:00 至 12:30',
+      routineTime: '2026年9月19日至21日',
       routineTextAfter: '线上参会作者请使用',
       routineTextEnd: '软件加入会议。',
       importantDates: '重要日期',
@@ -675,7 +675,7 @@ export const messages = {
     importantDates: [
       { event: '投稿截止', date: '2026年7月31日' },
       { event: '录用通知', date: '2026年8月31日' },
-      { event: '会议举行', date: '2026年9月19日' },
+      { event: '会议日期', date: '2026年9月19日至21日' },
     ],
     catalogNumbers,
     latestNews: [
@@ -693,7 +693,7 @@ export const messages = {
       { event: '论文评审', schedule: '2026年7月16日至8月21日' },
       { event: '作者通知', schedule: '通知日期：2026年8月31日' },
       { event: '终稿提交与缴费', schedule: '截止日期：2026年8月31日' },
-      { event: '会议', schedule: '日期：2026年9月19日' },
+      { event: '会议', schedule: '日期：2026年9月19日至21日' },
     ],
     routine: [
       { time: '09:00', title: '开幕致辞', note: '大会主席' },
@@ -888,7 +888,7 @@ export const messages = {
       description: '征稿通知、出版信息、出版编号和重要日期。',
       callForPaper: '征稿通知',
       paragraphs: [
-        '尊敬的作者：第二十三届小波智能体媒介技术和信息处理国际计算机学术会议（ICCWAMTIP 2026）将于2026年9月19日在电子科技大学举行。',
+        '尊敬的作者：第二十三届小波智能体媒介技术和信息处理国际计算机学术会议（ICCWAMTIP 2026）将于2026年9月19日至21日在电子科技大学举行。',
         '本次会议由 IEEE 支持、电子科技大学承办，聚焦关键信息技术的最新进展。会议将为学术界和产业界提供交流新挑战、分享解决方案和讨论未来研究方向的重要平台。会议论文集将由电子科技大学出版，所有录用论文预计将被 IEEE Xplore 收录并被 EI 检索。会议还将邀请知名专家作大会报告。',
       ],
       topicsIntro: '会议征稿主题包括：',
@@ -901,7 +901,7 @@ export const messages = {
       importantDates: '重要日期',
       catalogNumbers: '出版编号',
       organization: '第23届 ICCWAMTIP 组织单位',
-      organizationLines: ['小波分析及应用国际中心', '中国成都，电子科技大学', '2026年9月19日'],
+      organizationLines: ['小波分析及应用国际中心', '中国成都，电子科技大学', '2026年9月19日至21日'],
     },
     guidance: {
       title: '作者指南',
